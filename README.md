@@ -14,7 +14,7 @@ npm init --yes
 npm install express --save
 npm install crypto-js --save
 ```
-## Code example
+## How to use?
 * Run the code using node.js.
 `node index.js`
 * Using postman, make the GET and POST http requests.
@@ -24,3 +24,6 @@ npm install crypto-js --save
 `http://localhost:8000/block/1` (corresponding block height). Output is a block which is given as a height in http request.
 ### GET(Optional)
 `http://localhost:8000/blockchain` Displays the entire blockchain.
+
+## LICENSE
+MIT © [Manolingam](docs/LICENSE)
