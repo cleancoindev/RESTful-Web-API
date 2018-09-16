@@ -25,5 +25,8 @@ npm install crypto-js --save
 ### GET(Optional)
 `http://localhost:8000/blockchain` Displays the entire blockchain.
 
+## Endpoint documentation
+[RESTful-Web-API](https://documenter.getpostman.com/view/5369196/RWaKU9Sq) - Refer for endpoint documentation.
+
 ## LICENSE
 MIT © [Manolingam](./LICENSE)
