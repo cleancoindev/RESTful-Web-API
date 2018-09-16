@@ -26,4 +26,4 @@ npm install crypto-js --save
 `http://localhost:8000/blockchain` Displays the entire blockchain.
 
 ## LICENSE
-MIT © [Manolingam](docs/LICENSE)
+MIT © [Manolingam](./LICENSE)
