@@ -25,7 +25,8 @@ npm install level --save
 }`. After that you will get the corresponding output depending on your input.
 ### GET
 - `http://localhost:8000/` - Responds with all the endpoints available.
-- `http://localhost:8000/block/1` (corresponding block height). Output is a block which is given as a height in http request.
+- `http://localhost:8000/block/1` (corresponding block height) - Output is a block which is given as a height in http request.
+- `http://localhost:8000/chain/` - Responds with the entire blockchain.
 
 ## Endpoint documentation
 [RESTful-Web-API](https://documenter.getpostman.com/view/5369196/RWaLvnoX) - Refer for endpoint documentation.
