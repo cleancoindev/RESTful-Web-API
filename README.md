@@ -6,6 +6,7 @@ This project is built on private blockchain that accepts string data as input th
 * [Express.js](https://expressjs.com/) - Web application framework.
 * [crypto-js](https://www.npmjs.com/package/crypto-js) - SHA256 Algorithm.
 * [Postman](https://www.getpostman.com/) - API development environment.
+* [levelDb](http://leveldb.org/) - Database to persist data.
 
 ## Installation
 Install the required dependencies using [npm](https://www.npmjs.com/) package manager.
@@ -13,6 +14,7 @@ Install the required dependencies using [npm](https://www.npmjs.com/) package ma
 npm init --yes
 npm install express --save
 npm install crypto-js --save
+npm install level --save
 ```
 ## How to use?
 * Run the code using node.js.
@@ -22,11 +24,9 @@ npm install crypto-js --save
 `http://localhost:8000/block` and the corresponding JSON body as `{data:"Your data"}`. After that you will get the corresponding output depending on your input.
 ### GET
 `http://localhost:8000/block/1` (corresponding block height). Output is a block which is given as a height in http request.
-### GET(Optional)
-`http://localhost:8000/blockchain` Displays the entire blockchain.
 
 ## Endpoint documentation
-[RESTful-Web-API](https://documenter.getpostman.com/view/5369196/RWaKU9Sq) - Refer for endpoint documentation.
+[RESTful-Web-API](https://documenter.getpostman.com/view/5369196/RWaLvnoX) - Refer for endpoint documentation.
 
 ## LICENSE
 MIT © [Manolingam](./LICENSE)
